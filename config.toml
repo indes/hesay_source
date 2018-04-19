@@ -2,3 +2,22 @@ baseURL = "https://hesay.net/"
 languageCode = "zh-cn"
 title = "HeSay"
 theme = "hugo-paper"
+
+paginate = 10
+[[menu.main]]
+name                   = "features"
+weight                 = -120
+identifier             = "features"
+url                    = "/categories/features/"
+
+[[menu.main]]
+name                   = "About"
+weight                 = -110
+identifier             = "about"
+url                    = "/about/"
+
+[[menu.main]]
+name                   = "Code"
+weight                 = -100
+identifier             = "code"
+url                    = "/code/"
