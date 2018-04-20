@@ -2,6 +2,8 @@
 title: "Hello World！"
 date: 2017-08-01T19:02:02+08:00
 draft: false
+categories:
+- 琐事
 tags: ["琐事"]
 ---
 
