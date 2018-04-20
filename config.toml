@@ -3,21 +3,19 @@ languageCode = "zh-cn"
 title = "HeSay"
 theme = "hugo-paper"
 
+author = "indes"
 paginate = 10
 [[menu.main]]
-name                   = "features"
-weight                 = -120
-identifier             = "features"
-url                    = "/categories/features/"
+name                   = "琐事"
+identifier             = "things"
+url                    = "/categories/琐事/"
 
 [[menu.main]]
-name                   = "About"
-weight                 = -110
+name                   = "关于"
 identifier             = "about"
 url                    = "/about/"
 
 [[menu.main]]
-name                   = "Code"
-weight                 = -100
-identifier             = "code"
-url                    = "/code/"
+name                   = "折腾"
+identifier             = "zheteng"
+url                    = "/categories/折腾/"
