@@ -1,5 +1,5 @@
 ---
-title: "Hello World！"
+title: "🔦Hello World！"
 date: 2017-08-01T19:02:02+08:00
 draft: false
 categories:
