@@ -4,18 +4,3 @@ title = "HeSay"
 theme = "hugo-paper"
 
 author = "indes"
-paginate = 10
-[[menu.main]]
-name                   = "琐事"
-identifier             = "things"
-url                    = "/categories/琐事/"
-
-[[menu.main]]
-name                   = "关于"
-identifier             = "about"
-url                    = "/about/"
-
-[[menu.main]]
-name                   = "折腾"
-identifier             = "zheteng"
-url                    = "/categories/折腾/"
