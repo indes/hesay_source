@@ -4,3 +4,5 @@ title = "HeSay"
 theme = "hugo-paper"
 
 author = "indes"
+
+DisqusShortname = "hesay"
