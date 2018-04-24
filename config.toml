@@ -7,3 +7,18 @@ DisqusShortname = "hesay"
 
 [author]
     name = "indes"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about/"
+    weight = -110
+
+  #[[menu.main]]
+    #name = "getting started"
+    #pre = "<i class='fa fa-road'></i>"
+    #url = "/getting-started/"
+    #weight = -100
