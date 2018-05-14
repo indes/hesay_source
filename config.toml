@@ -1,4 +1,4 @@
-baseURL = "https://hesay.me/"
+baseURL = "https://hesay.net/"
 languageCode = "zh-cn"
 title = "HeSay"
 theme = "hugo-paper"
