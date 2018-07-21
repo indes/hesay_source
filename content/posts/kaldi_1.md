@@ -64,9 +64,6 @@ make -j 20 # 这一步花费的时间比较长
 
 ![](https://o05g5zevc.qnssl.com/42c4f4ea-dd11-48c8-a55f-a2f64eb40c98/make.png)
 
-<<<<<<< HEAD
-kaldi就安装完成了，过程还算比较简单。 
-=======
 kaldi就安装完成了，过程还算比较简单。
 
 
@@ -75,4 +72,4 @@ kaldi就安装完成了，过程还算比较简单。
 进入 `kaldi/egs/yesno/s5` 目录，运行 `./run.sh`。
 脚本首先会下载数据，然后等待运行结果就行了。
 ![](https://o05g5zevc.qnssl.com/3d5d3d1a-0a2e-4df7-a249-f521314347b4/yesno.png)
->>>>>>> b9a39cd4cdca169e26c2383790b4c751e87a3f20
+

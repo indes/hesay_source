@@ -3,7 +3,7 @@ languageCode = "zh-cn"
 title = "HeSay"
 theme = "hugo-paper"
 
-DisqusShortname = "hesay"
+# DisqusShortname = "hesay"
 
 [author]
     name = "indes"
