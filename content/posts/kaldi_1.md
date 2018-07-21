@@ -64,4 +64,4 @@ make -j 20 # 这一步花费的时间比较长
 
 ![](https://o05g5zevc.qnssl.com/42c4f4ea-dd11-48c8-a55f-a2f64eb40c98/make.png)
 
-kaldi就安装完成了，过程还算比较简单。
+kaldi就安装完成了，过程还算比较简单。 
