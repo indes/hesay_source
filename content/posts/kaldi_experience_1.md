@@ -1,5 +1,5 @@
 ---
-title: "kaldi初体验（一）- 安装"
+title: "Kaldi初体验（一）- 安装"
 date: 2018-07-15T14:39:05+08:00
 draft: false
 categories:

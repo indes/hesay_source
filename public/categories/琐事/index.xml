@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>琐事 on HeSay</title>
+    <link>https://hesay.me/categories/%E7%90%90%E4%BA%8B/</link>
+    <description>Recent content in 琐事 on HeSay</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 24 Jan 2018 22:44:51 +0800</lastBuildDate>
+    
+	<atom:link href="https://hesay.me/categories/%E7%90%90%E4%BA%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>❄据说近期有雪</title>
+      <link>https://hesay.me/posts/it-is-going-to-snow/</link>
+      <pubDate>Wed, 24 Jan 2018 22:44:51 +0800</pubDate>
+      
+      <guid>https://hesay.me/posts/it-is-going-to-snow/</guid>
+      <description>&lt;p&gt;没见过世面的南方人🤧&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>⛄冬天，你好!</title>
+      <link>https://hesay.me/posts/%E5%86%AC%E5%A4%A9%E4%BD%A0%E5%A5%BD/</link>
+      <pubDate>Sat, 18 Nov 2017 22:13:22 +0800</pubDate>
+      
+      <guid>https://hesay.me/posts/%E5%86%AC%E5%A4%A9%E4%BD%A0%E5%A5%BD/</guid>
+      <description>&lt;p&gt;不知不觉又拖了这么久，一转眼长沙就已进入冬季。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>🔦Hello World！</title>
+      <link>https://hesay.me/posts/hello-world/</link>
+      <pubDate>Tue, 01 Aug 2017 19:02:02 +0800</pubDate>
+      
+      <guid>https://hesay.me/posts/hello-world/</guid>
+      <description>&lt;p&gt;之前的博客已经有一年多没更新了，一旦停下来想再次出发就难了。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

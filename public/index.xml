@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HeSay</title>
+    <link>https://hesay.me/</link>
+    <description>Recent content on HeSay</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 15 Jul 2018 14:39:05 +0800</lastBuildDate>
+    
+        <atom:link href="https://hesay.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>kaldi初体验（一）- 安装</title>
+      <link>https://hesay.me/posts/kaldi_1/</link>
+      <pubDate>Sun, 15 Jul 2018 14:39:05 +0800</pubDate>
+      
+      <guid>https://hesay.me/posts/kaldi_1/</guid>
+      <description>&lt;p&gt;最近对Kaldi这个工具箱有了一些粗浅的体验，踩了不少坑。于是就稍微整理了一下。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;下载代码&#34;&gt;下载代码&lt;/h2&gt;
+
+&lt;p&gt;kaldi托管在GitHub上，首先需要将代码下载到本地。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;git clone https://github.com/kaldi-asr/kaldi
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;然后进入到Kaldi文件夹，可以观察以下Kaldi的目录结构。&lt;/p&gt;
+
+&lt;p&gt;其中./tools，./src和./egs三个目录比较重要：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;./tools 目录存放Kaldi依赖的包&lt;/li&gt;
+&lt;li&gt;./src 目录存放Kaldi的源代码&lt;/li&gt;
+&lt;li&gt;./egs 目录存放Kaldi官方提供的一些例子&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;编译安装&#34;&gt;编译安装&lt;/h2&gt;
+
+&lt;h3 id=&#34;检查依赖环境&#34;&gt;检查依赖环境&lt;/h3&gt;
+
+&lt;p&gt;运行以下命令：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;cd tools
+extras/check_dependencies.sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;一般会提示需要安装一些依赖的环境，根据提示安装就行。安装完依赖后再运行一次 &lt;code&gt;extras/check_dependencies.sh&lt;/code&gt; 出现以下结果就行了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://o05g5zevc.qnssl.com/ddacdcf3-ca38-49bd-a665-f35c7f7a9c13/check_dependecies.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;编译&#34;&gt;编译&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;make -j 20 # 20为并行处理的作业数，可以根据自己的cpu核心数进行修改
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;然后程序就会自己从网上下载需要的文件进行编译了&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://o05g5zevc.qnssl.com/6aacc65d-af8b-40fa-9c9a-86d25ac96502/make_tools.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;然后切换到../src目录运行以下命令：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;make depend -j 20
+make -j 20 # 这一步花费的时间比较长
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://o05g5zevc.qnssl.com/42c4f4ea-dd11-48c8-a55f-a2f64eb40c98/make.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;kaldi就安装完成了，过程还算比较简单。&lt;/p&gt;
+
+&lt;h3 id=&#34;验证安装&#34;&gt;验证安装&lt;/h3&gt;
+
+&lt;p&gt;安装完成了，下面我们验证以下是否安装成功。
+进入 &lt;code&gt;kaldi/egs/yesno/s5&lt;/code&gt; 目录，运行 &lt;code&gt;./run.sh&lt;/code&gt;。
+脚本首先会下载数据，然后等待运行结果就行了。
+&lt;img src=&#34;https://o05g5zevc.qnssl.com/3d5d3d1a-0a2e-4df7-a249-f521314347b4/yesno.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>📌关于</title>
+      <link>https://hesay.me/about/</link>
+      <pubDate>Tue, 24 Apr 2018 14:34:47 +0800</pubDate>
+      
+      <guid>https://hesay.me/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;我&#34;&gt;👨🏻‍🚀 我&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+    &amp;quot;属性&amp;quot;: {
+        &amp;quot;性别&amp;quot;: 男,
+        &amp;quot;年龄&amp;quot;: 乐观估计个人寿命/4,
+        &amp;quot;坐标&amp;quot;: 长沙,
+        &amp;quot;身份&amp;quot;: 学生,
+        &amp;quot;星座&amp;quot;: 水瓶,
+        &amp;quot;状态&amp;quot;: 一无所有，一事无成
+    },
+    &amp;quot;喜欢&amp;quot;: [
+        💖zard,
+        🌌科幻, 
+        💽上世纪八九十年代的日本流行乐, 
+        🎻巴洛克时期的音乐
+        🎮文明5,
+        🔎折腾,
+        🦔小部分动物
+    ],
+    &amp;quot;不喜欢&amp;quot;: [
+        🥗香菜,
+        🍎苹果（水果）,
+        🐛昆虫
+    ],
+    联系方式: {
+        &amp;quot;网易云音乐&amp;quot;: @网粒,
+        &amp;quot;📧&amp;quot;: wl🔹live.it(🔹换成@),
+        &amp;quot;Github&amp;quot;: @indes
+    },
+    近期想做的事: [
+        学吉他🎸,
+        烫头
+    ],
+    近期在读的书: [
+        《基因组》,
+        《数学之美》
+    ]
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;博客&#34;&gt;📘 博客&lt;/h1&gt;
+
+&lt;h2 id=&#34;he-say&#34;&gt;He Say:&lt;/h2&gt;
+
+&lt;p&gt;开始于2012，折腾来折腾去又回到了这里。
+沉寂了许久，再度出发。不同的目的，不同的心境，为遇见另一个自己。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;不害怕，不后悔&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>🔧换来换去之回到Hugo</title>
+      <link>https://hesay.me/posts/come-back-to-hugo/</link>
+      <pubDate>Sat, 21 Apr 2018 18:57:16 +0800</pubDate>
+      
+      <guid>https://hesay.me/posts/come-back-to-hugo/</guid>
+      <description>&lt;p&gt;
+从Ghost转回Hugo，文章没写几篇，平台倒是换了几个。
+使用了&lt;a href=&#34;https://github.com/fooleap/disqus-php-api&#34;&gt;@fooleap&lt;/a&gt;写的Disqus代理，有效解决了国内Disqus被墙的问题。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>📷非Pixel开启Google Photos原画质无限容量</title>
+      <link>https://hesay.me/posts/google-photos-unlimited-storage-original-size/</link>
+      <pubDate>Fri, 20 Apr 2018 16:28:21 +0800</pubDate>
+      
+      <guid>https://hesay.me/posts/google-photos-unlimited-storage-original-size/</guid>
+      <description>&lt;p&gt;G家的良心应用还是很多的，Google Photos就是一个很好用的应用。无限容量的照片存储很好用，就是非Nexus和Pixel设备会对照片进行压缩（虽然我真没看出来压缩后的变化），谷歌亲儿子则没有这个限制并且还有Google Lens这个有意思的工具。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;前提条件&#34;&gt;前提条件&lt;/h2&gt;
+
+&lt;p&gt;手机必须root，安装GApps并登录谷歌账号&lt;/p&gt;
+
+&lt;h2 id=&#34;步骤&#34;&gt;步骤&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;下载&lt;a href=&#34;http://7b1ft4.com1.z0.glb.clouddn.com/nexus.xml?attname=&#34;&gt;nexus.xml&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;复制nexus.xml文件到手机/system/etc/sysconfig目录下&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;更改此文件权限为644，就是rw-r–r–
+&lt;img src=&#34;https://ws1.sinaimg.cn/orj360/0067saHNgy1fqj8minmjoj30u01hcad6.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;重启手机&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;验证&#34;&gt;验证&lt;/h2&gt;
+
+&lt;p&gt;打开Google Phones，在 设置/备份与同步/备份账号 的下面会多处一句话：
+&lt;img src=&#34;https://ws1.sinaimg.cn/mw690/0067saHNgy1fqj8ttzgdbj30tz0eudh8.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;您可以获得无限免费存储空间，以原画质上传Pixel设备中的照片和视频&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;如果出现这句话，那么就说明成功了。&lt;/p&gt;
+
+&lt;p&gt;我对于原画质无限容量的需求倒是不大，反倒是觉得集成的Google Lens挺有意思的。
+&lt;img src=&#34;https://ws1.sinaimg.cn/large/0067saHNgy1fqjax9mr0kj31m91d14qp.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;找到一张照片，然后点击那个按钮就能识别了，对物体识别率还不错。
+&lt;img src=&#34;https://ws1.sinaimg.cn/large/0067saHNgy1fqjb0knh3bj31ob1hchdt.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://ws1.sinaimg.cn/large/0067saHNgy1fqjbbd3013j31ob1hc7wh.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.xda-developers.com/enable-google-photos-unlimited-storage/&#34;&gt;How to Enable Google Photos Unlimited Storage and Pixel-Exclusive Wallpapers on Any Phone&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://otichi.com/google-photos-unlimited-storage-original-size.html&#34;&gt;解开封印：Google Photos不限容量原画质上传&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>❄据说近期有雪</title>
+      <link>https://hesay.me/posts/it-is-going-to-snow/</link>
+      <pubDate>Wed, 24 Jan 2018 22:44:51 +0800</pubDate>
+      
+      <guid>https://hesay.me/posts/it-is-going-to-snow/</guid>
+      <description>&lt;p&gt;没见过世面的南方人🤧&lt;/p&gt;
+
+&lt;p&gt;
+&lt;img src=&#34;https://ws1.sinaimg.cn/large/0067saHNgy1fqkgylt8aqj310g0jj409.jpg&#34; alt=&#34;&#34; /&gt;
+湖南，也算半个南方人吧。印象中已经有几年没有看过雪了。虽然天气预报前段时间说过会下雪却没有下，但是还是挺期待的。
+​
+回想起来2008年那场冰灾已经是十年前了。记得还在读初中的我最怕的就是停电，我这种不爱出门的孩子一旦遇上停电基本就没什么事情可干了。当年的电视新闻经常播报的也是哪里电线塔倒塌，哪里的供电受阻，哪里有电网工人牺牲。一转眼十年已经过去，也算是一段不短的时间了。预报说今年的雪会比十年前更大，但是经过十年的发展，现在应该不用再担心停掉这种事情了吧，也不用担心哪位电网工作人员的安全问题了吧。
+​&lt;/p&gt;
+
+&lt;p&gt;学校规定的放假时间是20号，但是目前还没想好什么时候回家。导师出国，于是我们就成了被放养的孩子。某些同学的导师有规定要二月份才能回家，我们则没有这个要求。​
+凡事皆有好坏的两面，我喜欢没人管的自由，也只能承受被放养的坏处。相比于某些实验室每周两次的例会，我们挂靠的另外的一个导师一周才要求开一次，还在能接受的范围内。不用被当苦力做一些横向项目，因此也会少一些项目经验。感觉最大的影响还是相当于少了一个指路人吧，现在的我们仅仅是定了个方向，要做什么，怎么做，都还一无所知，每天就这样浑浑噩噩的浪费，一学期又过去了，也许气温才是最大的改变。世界这么丑，一切还得靠自己。
+​
+最近流行答题，实验室的同门有些都赚了将近￥200，我依旧脸黑…&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>⛄冬天，你好!</title>
+      <link>https://hesay.me/posts/%E5%86%AC%E5%A4%A9%E4%BD%A0%E5%A5%BD/</link>
+      <pubDate>Sat, 18 Nov 2017 22:13:22 +0800</pubDate>
+      
+      <guid>https://hesay.me/posts/%E5%86%AC%E5%A4%A9%E4%BD%A0%E5%A5%BD/</guid>
+      <description>&lt;p&gt;不知不觉又拖了这么久，一转眼长沙就已进入冬季。&lt;/p&gt;
+
+&lt;p&gt;
+写上一篇文章时穿的还是短袖，现在已经是冬天了，毕业也已经四个多月。&lt;/p&gt;
+
+&lt;h2 id=&#34;研究生生活&#34;&gt;研究生生活&lt;/h2&gt;
+
+&lt;p&gt;研究生生活也开始两个多月了，刚开学那段时间，心理落差的确挺大的，之前一直向往的研究生生活原来是这样，心中的热情瞬间被现实浇的冷水熄灭。从毕业到几个星期前，我的状态的确挺糟糕的，最近事情多起来也就没空想那些东西了。这篇文章既写给自己，也给这段时间做个总结。&lt;/p&gt;
+
+&lt;h2 id=&#34;也许不算暑假的暑假&#34;&gt;也许不算暑假的暑假&lt;/h2&gt;
+
+&lt;p&gt;毕业后的暑假（还算暑假吗😓），依旧是待在家中。一个又懒又不爱社交的人，自然也没多少事情可做。平白无事，也就回忆起大学四年的时光。
+也许所有的事情只有过后才会想明白，这四年我都做了些什么鬼事情啊。自己是一个不擅长社交的人，好朋友越来越疏远，结果四年成功把那些中学小学的好朋友变成了老朋友。本是新时代的大学生，又是信息类专业，却不会用微博、微信等社交工具，说起来也挺搞笑的。
+我也不明白那些时间都去哪里了，之前都宅在宿舍干些什么事情呢，我不看动漫，不追剧，也就偶尔玩玩游戏，也没有好好学习，那些时间都不知道去哪里了。
+四年时间，真正总结起来几乎什么都没干，错过了不该错过的人，也许也伤了某人的心。认识了一些新朋友，也逐渐在他们生活中淡去。太多想做的事情仅仅放在心中没有去做，太多该做的事情明知要做却掩耳盗铃般不做。
+大一刚入学的时候，忘记从哪里听到一句话：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;不害怕，不后悔&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一直将这句话记在心里，却没能真正照那句话说的那样去做，也正是因为很多事情没有做到不害怕，所以现在才不能做到不后悔。也许这四年真正带给我的，只有逐渐老去的躯体和同样苍老的内心。&lt;/p&gt;
+
+&lt;p&gt;毕业后的那个暑假，第一次有了想找人倾诉的想法，可是仔细一想，的确没有关系好到能敞开心扉的朋友。只有到了沮丧的时候才能发现自己的孤独。
+真正说起来，建的第一个博客是高中的时候，那时候什么都不懂，凭着对技术的好奇，到处找免费空间。大学后大一大二应该是坚持的比较好的，偶尔更新下文章，也因此认识了几个朋友，然后就热情慢慢褪去，直到最后完全不再更新博客。&lt;/p&gt;
+
+&lt;h2 id=&#34;继续&#34;&gt;继续&lt;/h2&gt;
+
+&lt;p&gt;我不是一个擅长表达的人，高中最讨厌的也是写作文。喜欢记录，但一般在自己的日记中，暑假的时候，觉得还是要有一个能留下自己足迹的地方，既然自己不想用那些社交软件，那就把博客又建起来吧，也算是又有一个能吐槽的地方。主要是不能浪费手里的域名和主机😂。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;冬天啊，我虽然不喜欢你，但是也请你走得慢一点。&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>🔦Hello World！</title>
+      <link>https://hesay.me/posts/hello-world/</link>
+      <pubDate>Tue, 01 Aug 2017 19:02:02 +0800</pubDate>
+      
+      <guid>https://hesay.me/posts/hello-world/</guid>
+      <description>&lt;p&gt;之前的博客已经有一年多没更新了，一旦停下来想再次出发就难了。&lt;/p&gt;
+
+&lt;p&gt;
+期间多次想回来，但是又一次次被拖延症打败，拖着拖着就到现在了。之前的主机和域名即将过期，于是索性丢弃原博客文章重新开始。
+依旧不定期更新，希望拖延症离我远一点！
+今天是解放军建军90周年，祝解放军越来越强大！向中国军人致敬！&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
