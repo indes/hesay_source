@@ -12,9 +12,9 @@ tags:
 最近对Kaldi这个工具箱有了一些粗浅的体验，踩了不少坑。于是就稍微整理了一下。
 
 <!--more-->
-## 下载代码
+# 下载代码
 
-kaldi托管在GitHub上，首先需要将代码下载到本地。
+Kaldi托管在GitHub上，首先需要将代码下载到本地。
 
 ```shell
 git clone https://github.com/kaldi-asr/kaldi
@@ -28,9 +28,9 @@ git clone https://github.com/kaldi-asr/kaldi
 - ./src 目录存放Kaldi的源代码
 - ./egs 目录存放Kaldi官方提供的一些例子
 
-## 编译安装
+# 编译安装
 
-### 检查依赖环境
+## 检查依赖环境
 
 运行以下命令：
 
@@ -43,7 +43,7 @@ extras/check_dependencies.sh
 
 ![](https://o05g5zevc.qnssl.com/ddacdcf3-ca38-49bd-a665-f35c7f7a9c13/check_dependecies.png)
 
-### 编译
+## 编译
 
 ```shell
 make -j 20 # 20为并行处理的作业数，可以根据自己的cpu核心数进行修改
@@ -67,9 +67,13 @@ make -j 20 # 这一步花费的时间比较长
 kaldi就安装完成了，过程还算比较简单。
 
 
-### 验证安装
+## 验证安装
 安装完成了，下面我们验证以下是否安装成功。
 进入 `kaldi/egs/yesno/s5` 目录，运行 `./run.sh`。
 脚本首先会下载数据，然后等待运行结果就行了。
 ![](https://o05g5zevc.qnssl.com/3d5d3d1a-0a2e-4df7-a249-f521314347b4/yesno.png)
 
+# Reference
+- [Kaldi学习手记（一）：Kaldi的编译安装](https://blog.csdn.net/by21010/article/details/49072699)
+- [有趣的开源软件：语音识别工具Kaldi (一)](https://blog.csdn.net/amds123/article/details/70313780)
+- [kaldi部署](https://zhuanlan.zhihu.com/p/26464775)

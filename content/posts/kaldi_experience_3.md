@@ -40,3 +40,7 @@ CVTE公司开源了一个训练好的模型，可以直接使用该模型进行�
 
 
 可以看出，识别效果也不是很理想，如果想进一步提高性能，可以参考此文章：[cvte在线解码器源码修改（干货）](https://www.jianshu.com/p/5d4c39ca105a)
+
+# Reference
+- [Kaldi学习笔记（五）——使用CVTE训练好的SR模型做中文在线识别](https://blog.csdn.net/snowdroptulip/article/details/78952428)
+- [研一刚接触语音识别，怎么运用kaldi工具箱做一个baseline？](https://www.zhihu.com/question/57230747/answer/244383490)

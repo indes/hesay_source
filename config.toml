@@ -7,7 +7,8 @@ theme = "hugo-paper"
 
 [author]
     name = "indes"
-
+[params]
+    description = "我看见的世界。"
 [menu]
 
   [[menu.main]]
@@ -22,3 +23,9 @@ theme = "hugo-paper"
     #pre = "<i class='fa fa-road'></i>"
     #url = "/getting-started/"
     #weight = -100
+
+enableRobotsTXT = true
+canonifyURLs = true
+# and if you think your md file names or locations might change:
+[permalinks]
+    post = "/blog/:title/"
