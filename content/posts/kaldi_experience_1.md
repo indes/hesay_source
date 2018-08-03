@@ -5,7 +5,7 @@ draft: false
 categories:
 - 折腾
 tags:
-- 语音识别
+- ASR
 - Kaldi
 ---
 
