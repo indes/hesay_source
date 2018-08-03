@@ -18,6 +18,13 @@ theme = "hugo-paper"
     url = "/about/"
     weight = -110
 
+  [[menu.main]]
+    identifier = "link"
+    name = "🔗Links"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/links/"
+    weight = -120
+
   #[[menu.main]]
     #name = "getting started"
     #pre = "<i class='fa fa-road'></i>"
