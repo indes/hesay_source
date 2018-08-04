@@ -1,5 +1,5 @@
 ---
-title: "🔧Kaldi初体验（二）-  thchs30运行"
+title: "🔧Kaldi初体验（二）：thchs30运行"
 date: 2018-07-30T21:17:30+08:00
 draft: false
 categories:
@@ -286,6 +286,6 @@ fi
 
 可以看出来，识别效果并不是很理想，性能还有待进一步提升。
 
-# Reference
+# References
 - [Kaldi thchs30手札（系列）](http://pelhans.com/2018/01/17/kaldi-note1/)
 - [kaldi上运行THCHS-30](https://blog.csdn.net/sut_wj/article/details/71055761)

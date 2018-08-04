@@ -1,5 +1,5 @@
 ---
-title: "🔧Kaldi初体验（一）- 安装"
+title: "🔧Kaldi初体验（一）：安装"
 date: 2018-07-15T14:39:05+08:00
 draft: false
 categories:
@@ -73,7 +73,8 @@ kaldi就安装完成了，过程还算比较简单。
 脚本首先会下载数据，然后等待运行结果就行了。
 ![](https://o05g5zevc.qnssl.com/3d5d3d1a-0a2e-4df7-a249-f521314347b4/yesno.png)
 
-# Reference
+# References
+- [Kaldi tutorial: Getting started](http://kaldi-asr.org/doc/tutorial_setup.html)
 - [Kaldi学习手记（一）：Kaldi的编译安装](https://blog.csdn.net/by21010/article/details/49072699)
 - [有趣的开源软件：语音识别工具Kaldi (一)](https://blog.csdn.net/amds123/article/details/70313780)
 - [kaldi部署](https://zhuanlan.zhihu.com/p/26464775)
