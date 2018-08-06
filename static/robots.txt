@@ -1,3 +1,3 @@
 User-agent: *
 Disallow: 
-Sitemap: https:/hesay.me/sitemap.xml
+Sitemap: https://hesay.me/sitemap.xml
