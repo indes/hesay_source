@@ -19,10 +19,10 @@ DisqusShortname = "hesay-me"
     weight = -110
 
   [[menu.main]]
-    identifier = "link"
-    name = "🔗Links"
+    identifier = "friends"
+    name = "🔗Friends"
     pre = "<i class='fa fa-heart'></i>"
-    url = "/links/"
+    url = "/friends/"
     weight = -120
 
   #[[menu.main]]
