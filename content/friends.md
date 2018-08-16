@@ -6,6 +6,7 @@ comments: false
 type: page
 ---
 
-#### 你真的很漂亮呢！
+> 你真的很漂亮呢！
 
 - [DCC 的小窝](https://dcc.cat "DCC 的小窝")
+- [Trii Hsia](https://yumoe.com/ "Trii Hsia")

@@ -284,7 +284,7 @@ fi
 
 ![单音节模型](https://o05g5zevc.qnssl.com/9836e5fc-4d2b-42af-8295-18703f130f05/%E5%8D%95%E9%9F%B3%E8%8A%82.png)
 
-可以看出来，识别效果并不是很理想，性能还有待进一步提升。
+如果你能走到这一步，那么🎉恭喜你🎉，你成功训练出一个人工智障（逃）
 
 # References
 - [Kaldi thchs30手札（系列）](http://pelhans.com/2018/01/17/kaldi-note1/)
