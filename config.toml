@@ -8,6 +8,8 @@ DisqusShortname = "hesay-me"
 [author]
     name = "indes"
 [params]
+    AuthorName = "indes"
+    GitHubUser = "indes"
     description = "我看见的世界。"
 [menu]
 
