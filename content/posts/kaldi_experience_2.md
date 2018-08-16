@@ -1,5 +1,5 @@
 ---
-title: "🔧Kaldi初体验（二）：thchs30运行"
+title: "🎤Kaldi初体验（二）：thchs30运行"
 date: 2018-07-30T21:17:30+08:00
 draft: false
 categories:

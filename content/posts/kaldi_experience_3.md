@@ -1,5 +1,5 @@
 ---
-title: "🔧Kaldi初体验（三）：使用CVTE Mandarin Model进行语音识别"
+title: "🎤Kaldi初体验（三）：使用CVTE Mandarin Model进行语音识别"
 date: 2018-08-03T20:07:37+08:00
 draft: false
 categories:
