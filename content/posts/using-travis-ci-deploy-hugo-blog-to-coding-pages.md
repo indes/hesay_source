@@ -1,7 +1,14 @@
 ---
-title: "使用Travis CI自动部署Hugo博客到Coding Pages"
+title: "🚀使用Travis CI自动部署Hugo博客到Coding Pages"
 date: 2018-08-17T19:50:11+08:00
 draft: false
+categories:
+- 折腾
+tags:
+- Hugo
+- Travis CI
+- 持续集成
+
 ---
 
 因为朋友的安利和Coding又送了我三个月的黄金会员，将博客从[Netlify](https://www.netlify.com/ "Netlify: All-in-one platform for automating modern web projects.")迁到了[Coding Pages](https://coding.net/pages/ "Coding Pages | 静态页面托管服务")。Coding Pages的服务器位于香港，比使用Tokyo aws的Netlify要快不少。但是习惯了曾经直接将博客源码推送到Git仓库，GitLab CI/CD或Netlif自动构建部署的方式，在Coding Pages上还得push一遍public文件夹让我觉得很繁琐。于是研究了一下GitHub上使用的比较多的Travis CI。
