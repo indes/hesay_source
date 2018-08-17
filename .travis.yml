@@ -1,23 +1,23 @@
+
 language: go
 
-install: go get -d github.com/gohugoio/hugo
+install: go get -v github.com/gohugoio/hugo
 
 script:
-    # - git clone "https://wanglics:${CO_TOKEN}@${CO_REF}" public
+    - git clone "https://wanglics:${CO_TOKEN}@${CO_REF}" public
     - hugo version
     - hugo
     - cd ./public
-    - git init
     - git config user.name "indes"
     - git config user.email "wanglicsly@gmail.com"
     - git add .
     - git commit -m "Travis CI 自动部署"
     # Coding Pages
-    - git push --force "https://wanglics:${CO_TOKEN}@${CO_REF}" master:master
+    - git push "https://wanglics:${CO_TOKEN}@${CO_REF}" master:master
 
 deploy:
     
 env:
     global:
         # Coding Pages
-        - CO_REF: git.coding.net/wanglics/hesay_hugo_public_new.git
+        - CO_REF: git.coding.net/wanglics/hesay_hugo_public_new.git    
