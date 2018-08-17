@@ -4,6 +4,7 @@ install: go get -d github.com/gohugoio/hugo
 
 script:
     # - git clone "https://wanglics:${CO_TOKEN}@${CO_REF}" public
+    - hugo version
     - hugo
     - cd ./public
     - git init
