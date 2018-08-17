@@ -4,15 +4,16 @@ language: go
 install: go get -v github.com/gohugoio/hugo
 
 script:
-    - git clone "https://wanglics:${CO_TOKEN}@${CO_REF}" public
+    # - git clone "https://wanglics:${CO_TOKEN}@${CO_REF}" public
     - hugo
     - cd ./public
+    - git init
     - git config user.name "indes"
     - git config user.email "wanglicsly@gmail.com"
     - git add .
-    - git commit -m "Travis-CI 自动部署"
+    - git commit -m "Travis CI 自动部署"
     # Coding Pages
-    - git push "https://wanglics:${CO_TOKEN}@${CO_REF}" master:master
+    - git push --force "https://wanglics:${CO_TOKEN}@${CO_REF}" master:master
 
 deploy:
     
