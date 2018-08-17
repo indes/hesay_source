@@ -13,11 +13,11 @@ G家的良心应用还是很多的，Google Photos就是一个很好用的应用
 
 <!--more-->
 
-## 前提条件
+# 前提条件
 
 手机必须root，安装GApps并登录谷歌账号
 
-## 步骤
+# 步骤
 
 1. 下载[nexus.xml](http://7b1ft4.com1.z0.glb.clouddn.com/nexus.xml?attname=)
 2. 复制nexus.xml文件到手机/system/etc/sysconfig目录下
@@ -26,7 +26,7 @@ G家的良心应用还是很多的，Google Photos就是一个很好用的应用
 
 4. 重启手机
 
-## 验证
+# 验证
 打开Google Phones，在 设置/备份与同步/备份账号 的下面会多处一句话：
 ![](https://ws1.sinaimg.cn/mw690/0067saHNgy1fqj8ttzgdbj30tz0eudh8.jpg)
 
@@ -41,6 +41,6 @@ G家的良心应用还是很多的，Google Photos就是一个很好用的应用
 ![](https://ws1.sinaimg.cn/large/0067saHNgy1fqjb0knh3bj31ob1hchdt.jpg)
 ![](https://ws1.sinaimg.cn/large/0067saHNgy1fqjbbd3013j31ob1hc7wh.jpg)
 
-## References
+# References
 - [How to Enable Google Photos Unlimited Storage and Pixel-Exclusive Wallpapers on Any Phone](https://www.xda-developers.com/enable-google-photos-unlimited-storage/)
 - [解开封印：Google Photos不限容量原画质上传](https://otichi.com/google-photos-unlimited-storage-original-size.html)

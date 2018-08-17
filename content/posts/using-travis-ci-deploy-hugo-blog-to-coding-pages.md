@@ -66,3 +66,7 @@ env:
         - CO_REF: # 这里填入你的coding pages仓库地址 例如：git.coding.net/username/hugo.git    
 ```
 然后push代码就行了。
+
+# References
+- [使用 Hugo 搭建博客](https://segmentfault.com/a/1190000012975914)
+- [Hexo遇上Travis-CI：可能是最通俗易懂的自动发布博客图文教程](https://juejin.im/post/5a1fa30c6fb9a045263b5d2a)
