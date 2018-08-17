@@ -2,6 +2,4 @@
 	path = themes/hugo-paper
 	url = git@github.com:indes/hugo-paper.git
 
-[submodule "public"]
-	path = public
-	url = git@git.coding.net:wanglics/hesay_hugo_public_new.git
+

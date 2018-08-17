@@ -14,6 +14,20 @@ install:
     - rm -rf public 2> /dev/null
 
 script:
+
+    - git clone "https://wanglics:${CO_TOKEN}@${CO_REF}" public
     - hugo
+    - cd ./public
+    - git config user.name "indes"
+    - git config user.email "wanglicsly@gmail.com"
+    - git add .
+    - git commit -m "Travis-CI 自动部署"
+    # Coding Pages
+    - git push "https://wanglics:${CO_TOKEN}@${CO_REF}" master:master
 
 deploy:
+    
+env:
+    global:
+        # Coding Pages
+        - CO_REF: git.coding.net/wanglics/hesay_hugo_public_new.git    
