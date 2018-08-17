@@ -58,7 +58,7 @@ deploy:
     - git add .
     - git commit -m "Travis-CI 自动部署"
     # Coding Pages
-    - git push "https://<username>:${CO_TOKEN}@${CO_REF}" master:master # username替换为你的coding用户名
+    - git push --force "https://<username>:${CO_TOKEN}@${CO_REF}" master:master # username替换为你的coding用户名
 
 env:
     global:
