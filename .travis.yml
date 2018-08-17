@@ -1,7 +1,6 @@
-
 language: go
 
-install: go get -v github.com/gohugoio/hugo
+install: go get -d github.com/gohugoio/hugo
 
 script:
     # - git clone "https://wanglics:${CO_TOKEN}@${CO_REF}" public
@@ -20,4 +19,4 @@ deploy:
 env:
     global:
         # Coding Pages
-        - CO_REF: git.coding.net/wanglics/hesay_hugo_public_new.git    
+        - CO_REF: git.coding.net/wanglics/hesay_hugo_public_new.git
