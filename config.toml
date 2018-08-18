@@ -27,6 +27,13 @@ DisqusShortname = "hesay-me"
     url = "/friends/"
     weight = -120
 
+  [[menu.main]]
+    identifier = "disk"
+    name = "💾Disk"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "https://disk.hesay.me/"
+    weight = -130
+
   #[[menu.main]]
     #name = "getting started"
     #pre = "<i class='fa fa-road'></i>"
