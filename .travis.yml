@@ -20,4 +20,4 @@ deploy:
 env:
     global:
         # Coding Pages
-        - CO_REF: git.coding.net/wanglics/hesay_hugo_public_new.git    
+        - CO_REF: git.coding.net/indes/hesay_public.git    
