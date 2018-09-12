@@ -4,6 +4,9 @@ date: 2018-09-12T17:22:24+08:00
 draft: false
 categories:
     - 折腾
+
+tags:
+    - 双拼
 ---
 学会双拼后，发现了新世界✨
 <!--more-->
@@ -51,9 +54,9 @@ Windows Registry Editor Version 5.00
 以下几个东西都是本人学习初期用到且十分有用的工具
 
 - 小鹤方案壁纸（好像当初就是因为这个放弃的微软双拼）
-![image](http://upload-images.jianshu.io/upload_images/1014340-2177f466ccd41c45.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](https://upload-images.jianshu.io/upload_images/1014340-2177f466ccd41c45.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 - 双拼练习小程序（刚开始的时候，睡前可以练十几分钟）
-![image](http://upload-images.jianshu.io/upload_images/1014340-da85efd0ff80dce4?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](https://upload-images.jianshu.io/upload_images/1014340-da85efd0ff80dce4?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 - 自己手抄的键位表（放在电脑旁边，十分有用）
