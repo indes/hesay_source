@@ -57,3 +57,7 @@ type: page
 沉寂了许久，再度出发。不同的目的，不同的心境，为遇见另一个自己。
 
 **不害怕，不后悔**
+
+
+最后，纪念一下死去的旧博客，祝自己能够坚持下去。
+![网粒](https://hesayhugo-1251211798.cosgz.myqcloud.com/about/Screenshot_2018-09-12.jpg)
