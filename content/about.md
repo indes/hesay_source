@@ -37,7 +37,7 @@ type: page
         "网易云音乐": @网粒,
         "📧": wl🔹live.it(🔹换成@),
         "Github": @indes,
-        "Telegram": @raftsman
+        "Telegram": @hyperiot
     },
     近期想做的事: [
         学电吉他🎸,
