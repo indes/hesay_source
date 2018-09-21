@@ -1,6 +1,6 @@
 baseURL = "https://hesay.me/"
 languageCode = "zh-cn"
-title = "难言"
+title = "瞎说"
 theme = "hugo-paper"
 
 DisqusShortname = "hesay-me"
