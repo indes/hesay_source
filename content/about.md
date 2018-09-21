@@ -6,9 +6,9 @@ comments: true
 type: page
 ---
 
-> 你不明白 这里
+> All my friends have gone away
 >
-> 危险万分
+> I need myself to sing this song
 
 # 👨🏻‍🚀 我
 ```
