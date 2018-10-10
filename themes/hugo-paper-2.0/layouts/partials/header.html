@@ -4,18 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="renderer" content="webkit">
-  <meta name="google-site-verification" content="9XnbTdtrf_LQtskZhhP0NwP_y4_Viem5H87bIGWadgw" />
-  <meta name="google-site-verification" content="GvRWPiGoHwdA6X6UUiCYi6pQM3qpYuy87Z_cTrlAZNI" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta content=" {{- if not .IsHome }}
-  {{- if eq .Kind "page" }}{{ .Title }}
-  {{- else if eq .Data.Singular "tag" }}{{ .Data.Term }}
-  {{- else }}
-  {{ with .Title }}{{ . }}{{ end }}
-  {{- end }} - {{ end }}
-  {{- .Site.Title -}}" property="og:title">
-  <meta content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Site.Params.description }}{{ if eq $isHomePage false }} - {{ .Description }}{{ end }}" property="og:description">
-  {{ partial "seo_schema" . }}
   <!-- Title -->
   <title>
     {{- if not .IsHome }}
@@ -48,9 +37,9 @@
 <body class="{{if eq .Kind `page` }}single{{else}}list{{ if .IsHome }} home{{ end }}{{end}}">
   <header class="header">
     {{ if .IsHome }}
-    <h1 class="title"><a href="{{.Site.BaseURL}}"><span>🔮</span>{{ .Site.Title }}</a></h1>
+    <h1 class="title"><a href="{{.Site.BaseURL}}">{{ .Site.Title }}</a></h1>
     {{ else }}
-    <p class="title"><a href="{{.Site.BaseURL}}"><span>🔮</span>{{ .Site.Title }}</a></p>
+    <p class="title"><a href="{{.Site.BaseURL}}">{{ .Site.Title }}</a></p>
     {{ end }}
     <button class="menu-toggle" type="button"></button>
     <nav class="menu">
