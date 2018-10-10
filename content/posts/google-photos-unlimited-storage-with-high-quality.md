@@ -21,13 +21,14 @@ G家的良心应用还是很多的，Google Photos就是一个很好用的应用
 
 1. 下载[nexus.xml](http://7b1ft4.com1.z0.glb.clouddn.com/nexus.xml?attname=)
 2. 复制nexus.xml文件到手机/system/etc/sysconfig目录下
-3. 更改此文件权限为644，就是rw-r–r–
+3. 更改此文件权限为644，就是rw-r–r– <br/>
 ![](https://ws1.sinaimg.cn/orj360/0067saHNgy1fqj8minmjoj30u01hcad6.jpg)
 
 4. 重启手机
 
 # 验证
 打开Google Phones，在 设置/备份与同步/备份账号 的下面会多处一句话：
+
 ![](https://ws1.sinaimg.cn/mw690/0067saHNgy1fqj8ttzgdbj30tz0eudh8.jpg)
 
 > 您可以获得无限免费存储空间，以原画质上传Pixel设备中的照片和视频
