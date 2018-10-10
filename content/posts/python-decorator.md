@@ -1,5 +1,5 @@
 ---
-title: "🐍Python 装饰器学习"
+title: "🐍Python 装饰器解析"
 date: 2018-10-10T10:29:52+08:00
 draft: false
 categories:
@@ -12,6 +12,8 @@ tags:
 
 <!--more-->
 
+**建议**阅读本文章的 ipynb 版本（[Github](https://github.com/indes/hesay_source/blob/master/static/ipynb/python_decorate.ipynb)、[Colaboratory](https://colab.research.google.com/drive/1jEtLq7m7aGN-V87JgAXGbAYIyOziSGZN)），此版本有附有代码运行结果。
+
 ## 什么是装饰器
 装饰器是一个可调用的对象，参数为另一个被装饰的函数，返回一个可调用的对象或函数。
 
@@ -19,13 +21,10 @@ tags:
 
 ```python
 def deco(func):
-    '''
-    该函数参数为另外一个函数
-    '''
-	def inner():
-		print('running %s' % func.__name__)
-		return func()
-	return inner
+    def inner():
+	    print('running %s' % func.__name__)
+	    return func()
+    return inner
 ```
 这里的 deco 函数其实就是一个装饰器，将函数作为参数传入，就能使用该装饰器。以下两段代码是等价的，输出的结果一样。
 
@@ -197,7 +196,7 @@ def f():
 等价于以下代码：
 
 ```python
-def f()
+def f():
     pass
 
 f = d1(d2(f))
