@@ -340,7 +340,7 @@ pre, code {
 }
 .post-content a {
   padding-bottom: 2px;
-  border-bottom: 1.5px solid rgba(0, 0, 0, .8);
+  border-bottom: 1.5px solid #61aeee;
 }
 .post-content p,
 .post-content ul,
@@ -491,4 +491,10 @@ pre, code {
   .footer span:nth-child(2n) {
     display: none;
   }
+}
+
+/* self */
+article .copyright a {
+  padding-bottom: 2px;
+  border-bottom: 1.5px solid #61aeee;
 }
