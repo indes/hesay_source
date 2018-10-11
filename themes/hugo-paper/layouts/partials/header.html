@@ -28,16 +28,6 @@
     {{- end }} - {{ end }}
     {{- .Site.Title -}}
   </title>
-  <!-- baidu tongji -->
-  <script>
-    var _hmt = _hmt || [];
-      (function() {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?75abf3102697bcbde8b2ad136e4cb1c3";
-        var s = document.getElementsByTagName("script")[0]; 
-        s.parentNode.insertBefore(hm, s);
-      })();
-  </script>
   <!-- Meta -->
   {{- if eq .Kind "page" }}
   <meta name="description" content="{{ .Summary }}">
