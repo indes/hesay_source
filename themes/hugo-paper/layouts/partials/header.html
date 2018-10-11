@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,8 +14,10 @@
   {{- else }}
   {{ with .Title }}{{ . }}{{ end }}
   {{- end }} - {{ end }}
-  {{- .Site.Title -}}" property="og:title">
-  <meta content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Site.Params.description }}{{ if eq $isHomePage false }} - {{ .Description }}{{ end }}" property="og:description">
+  {{- .Site.Title -}}"
+    property="og:title">
+  <meta content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Site.Params.description }}{{ if eq $isHomePage false }} - {{ .Description }}{{ end }}"
+    property="og:description">
   {{ partial "seo_schema" . }}
   <!-- Title -->
   <title>
@@ -25,6 +28,16 @@
     {{- end }} - {{ end }}
     {{- .Site.Title -}}
   </title>
+  <!-- baidu tongji -->
+  <script>
+    var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?75abf3102697bcbde8b2ad136e4cb1c3";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+  </script>
   <!-- Meta -->
   {{- if eq .Kind "page" }}
   <meta name="description" content="{{ .Summary }}">
@@ -45,6 +58,7 @@
   <!-- RSS -->
   <link rel="alternate" type="application/atom+xml" href="{{.Site.BaseURL}}index.xml" title="{{ .Site.Title }}">
 </head>
+
 <body class="{{if eq .Kind `page` }}single{{else}}list{{ if .IsHome }} home{{ end }}{{end}}">
   <header class="header">
     {{ if .IsHome }}
