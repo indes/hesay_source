@@ -3,7 +3,7 @@ languageCode = "zh-cn"
 title = "瞎说"
 theme = "hugo-paper"
 
-# DisqusShortname = "hesay-me"
+DisqusShortname = "hesay-me"
 
 [author]
     name = "indes"
@@ -26,7 +26,7 @@ theme = "hugo-paper"
     pre = "<i class='fa fa-heart'></i>"
     url = "https://disk.hesay.me/"
     weight = 2
-    
+
   [[menu.main]]
     identifier = "friends"
     name = "🔗Friends"
