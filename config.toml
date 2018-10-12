@@ -41,12 +41,6 @@ DisqusShortname = "hesay-me"
     url = "/about/"
     weight = 4
 
-
-
-
-
-
-
   #[[menu.main]]
     #name = "getting started"
     #pre = "<i class='fa fa-road'></i>"
