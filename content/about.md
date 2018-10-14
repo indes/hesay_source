@@ -54,4 +54,4 @@ type: page
 
 
 最后，纪念一下死去的旧博客，祝自己能够坚持下去。
-![网粒](https://hesayhugo-1251211798.cosgz.myqcloud.com/about/Screenshot_2018-09-12.jpg)
+![网粒](https://hesay-me-1251211798.file.myqcloud.com/img/about/Screenshot_2018-09-12.jpg)
