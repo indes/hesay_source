@@ -25,20 +25,20 @@ tags:
 
 # 准备工作
 使用GitHub账号登录[Travis CI](https://travis-ci.org/)，然后选择你的博客源码仓库，将右边的按钮打开。
-![](https://o05g5zevc.qnssl.com/64d35a86-f256-4097-8ec8-d461ccfc50ed/travis-ci.png)
+![](https://hesay-me-1251211798.file.myqcloud.com/img/using-travis-ci-deploy-hugo-blog-to-coding-pages/travis-ci.png)
 
 
 # 生成token
 打开[Coding token管理页面](https://coding.net/user/account/setting/tokens)，新建令牌，将project:depot权限勾上。然后就会生成一个token，改token只会显示一次，所以先别关闭页面。
-![](https://o05g5zevc.qnssl.com/5c928723-8957-425c-888e-2799280e4708/coding-token.png)
+![](https://hesay-me-1251211798.file.myqcloud.com/img/using-travis-ci-deploy-hugo-blog-to-coding-pages/coding-token.png)
 
 
 打开Travis CI项目的设置页面
-![](https://o05g5zevc.qnssl.com/cf8ec709-2d9b-4c82-9b73-0f288c4f0447/travis-ci1.png)
+![](https://hesay-me-1251211798.file.myqcloud.com/img/using-travis-ci-deploy-hugo-blog-to-coding-pages/travis-ci1.png)
 
 
 新建名为CO_TOKEN的环境变量，将刚生成的codng token填入。
-![](https://o05g5zevc.qnssl.com/f9ed2938-7a1d-46d0-95f5-046ced04d5c0/token-setting.png)
+![](https://hesay-me-1251211798.file.myqcloud.com/img/using-travis-ci-deploy-hugo-blog-to-coding-pages/token-setting.png)
 
 # Travis CI配置
 在仓库的根目录创建 .travis.yml 文件，将一下内容复制到文件中，并根据注释修改。
