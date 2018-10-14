@@ -19,7 +19,7 @@ tags:
 
 一共有三个文件需要下载：
 
-![下载数据](https://o05g5zevc.qnssl.com/57a2a256-7266-4e6a-a238-299bb7c6ebfe/download_data.png)
+![下载数据](https://hesay-me-1251211798.file.myqcloud.com/img/kaldi_experience_2/download_data.png)
 
 下载完成后，将数据解压到 kaldi/egs/thchs30/s5/ 下的```thchs30-openslr```文件夹中（如果不存在则手动创建该文件夹）。
 
@@ -282,7 +282,7 @@ fi
 
 ### 识别结果
 
-![单音节模型](https://o05g5zevc.qnssl.com/9836e5fc-4d2b-42af-8295-18703f130f05/%E5%8D%95%E9%9F%B3%E8%8A%82.png)
+![单音节模型](https://hesay-me-1251211798.file.myqcloud.com/img/kaldi_experience_2/%E5%8D%95%E9%9F%B3%E8%8A%82.png)
 
 如果你能走到这一步，那么🎉恭喜你🎉，你成功训练出一个人工智障（逃）
 

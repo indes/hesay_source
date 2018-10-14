@@ -32,10 +32,10 @@ CVTE公司开源了一个训练好的模型，可以直接使用该模型进行�
 
 该模型对内存要求较高，在我本地16G的电脑上因为内存不足没能运行成功，最后在一台大内存的服务器上运行成功。并且预测时间也较长，一条九秒的语音，花费将近两分钟，有可能是因为没有GPU的缘故。
 
- <div align="center"> ![资源占用](https://o05g5zevc.qnssl.com/a7a02ff0-9384-40c6-9f9e-1fe63055b492/top.png)
+ <div align="center"> ![资源占用](https://hesay-me-1251211798.file.myqcloud.com/img/kaldi_experience_3/top.png)
 预测时的资源占用</div>
 
- <div align="center"> ![运行结果](https://o05g5zevc.qnssl.com/534f61b7-938d-4c1c-86ac-8b0bbf23ed36/cvte.jpg)
+ <div align="center"> ![运行结果](https://hesay-me-1251211798.file.myqcloud.com/img/kaldi_experience_3/cvte.jpg)
 识别结果对比（黑字为正确文本，白字为识别结果）</div>
 
 

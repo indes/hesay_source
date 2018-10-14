@@ -41,7 +41,7 @@ extras/check_dependencies.sh
 
 一般会提示需要安装一些依赖的环境，根据提示安装就行。安装完依赖后再运行一次 `extras/check_dependencies.sh` 出现以下结果就行了。
 
-![](https://o05g5zevc.qnssl.com/ddacdcf3-ca38-49bd-a665-f35c7f7a9c13/check_dependecies.png)
+![](https://hesay-me-1251211798.file.myqcloud.com/img/kaldi_experience_1/check_dependecies.png)
 
 ## 编译
 
@@ -51,7 +51,7 @@ make -j 20 # 20为并行处理的作业数，可以根据自己的cpu核心数�
 
 然后程序就会自己从网上下载需要的文件进行编译了
 
-![](https://o05g5zevc.qnssl.com/6aacc65d-af8b-40fa-9c9a-86d25ac96502/make_tools.png)
+![](https://hesay-me-1251211798.file.myqcloud.com/img/kaldi_experience_1/make_tools.png)
 
 
 
@@ -62,7 +62,7 @@ make depend -j 20
 make -j 20 # 这一步花费的时间比较长
 ```
 
-![](https://o05g5zevc.qnssl.com/42c4f4ea-dd11-48c8-a55f-a2f64eb40c98/make.png)
+![](https://hesay-me-1251211798.file.myqcloud.com/img/kaldi_experience_1/make.png)
 
 kaldi就安装完成了，过程还算比较简单。
 
@@ -71,7 +71,7 @@ kaldi就安装完成了，过程还算比较简单。
 安装完成了，下面我们验证以下是否安装成功。
 进入 `kaldi/egs/yesno/s5` 目录，运行 `./run.sh`。
 脚本首先会下载数据，然后等待运行结果就行了。
-![](https://o05g5zevc.qnssl.com/3d5d3d1a-0a2e-4df7-a249-f521314347b4/yesno.png)
+![](https://hesay-me-1251211798.file.myqcloud.com/img/kaldi_experience_1/yesno.png)
 
 # References
 - [Kaldi tutorial: Getting started](http://kaldi-asr.org/doc/tutorial_setup.html)
