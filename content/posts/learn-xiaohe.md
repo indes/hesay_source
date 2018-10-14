@@ -24,11 +24,11 @@ tags:
 
 # 输入法选择
 自己一直以来是原生输入法党，可惜 ios 自带输入法不支持小鹤双拼，无奈只能选择Google家的 **Gboard**（需要去美区下载），颜值真的比国内那些第三方输入法高不少。
-![](https://hesayhugo-1251211798.cosgz.myqcloud.com/IMG_1089.jpg)
+![](https://hesay-me-1251211798.file.myqcloud.com/img/learn-xiaohe/IMG_1089.jpg)
 
 
 刚开始的那几天，对键位还不是很熟悉，可以使用**讯飞输入法**，然后下载一个皮肤很快就能熟悉键位了。
-![IMG_1087.PNG](https://upload-images.jianshu.io/upload_images/1014340-6c942fc0a2626515.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![IMG_1087.PNG](https://hesay-me-1251211798.file.myqcloud.com/img/learn-xiaohe/1014340-6c942fc0a2626515.png)
 
 
 
@@ -54,9 +54,9 @@ Windows Registry Editor Version 5.00
 以下几个东西都是本人学习初期用到且十分有用的工具
 
 - 小鹤方案壁纸（好像当初就是因为这个放弃了微软双拼）
-![image](https://upload-images.jianshu.io/upload_images/1014340-2177f466ccd41c45.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](https://hesay-me-1251211798.file.myqcloud.com/img/learn-xiaohe/1014340-2177f466ccd41c45.jpg)
 
 - 双拼练习小程序（刚开始的时候，睡前可以练十几分钟）
-![image](https://upload-images.jianshu.io/upload_images/1014340-da85efd0ff80dce4?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](https://hesay-me-1251211798.file.myqcloud.com/img/learn-xiaohe/1014340-da85efd0ff80dce4.jpg)
 
 - 自己手抄的键位表（放在键盘旁边，十分有用）
