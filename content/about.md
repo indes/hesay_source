@@ -6,9 +6,8 @@ comments: true
 type: page
 ---
 
-> All my friends have gone away
->
-> I need myself to sing this song
+> 我就是网络，凯斯。
+
 
 # 👨🏻‍🚀 我
 ```
