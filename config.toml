@@ -17,7 +17,7 @@ DisqusShortname = "hesay-me"
     identifier = "home"
     name = "🏠Home"
     pre = "<i class='fa fa-heart'></i>"
-    url = "https://disk.hesay.me/"
+    url = "https://hesay.me/"
     weight = 1
 
   [[menu.main]]
