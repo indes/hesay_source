@@ -14,7 +14,7 @@ tags:
 Telegram 实在是太好用了，个人最喜欢的还是全面且开放的 Bot api （还有比这更酷的im软件？），闲着无事写了一个类似于 [Server酱](http://sc.ftqq.com/) 的 Telegram 推送 Bot。
 <!--more-->
 
-GitHub: [telepush](https://github.com/indes/telepush)
+项目地址: [https://github.com/indes/telepush](https://github.com/indes/telepush)
 # 为什么
 已经有 Server酱 了，为什么还要重新写一个？
 
