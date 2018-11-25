@@ -1,5 +1,5 @@
 ---
-title: "🛫如何搭建一个属于自己的 Telegram 推送 Bot"
+title: "🤖如何搭建一个属于自己的 Telegram 推送 Bot"
 date: 2018-11-25T11:16:28+08:00
 draft: false
 categories:
