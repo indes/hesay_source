@@ -31,7 +31,7 @@ Telegram 实在是太好用了，个人最喜欢的还是全面且开放的 Bot 
 
 Now.sh 是 ZEIT 提供的类似于类 Paas 服务平台，提供的免费套餐足够我们用来搭建一个 Telegram Bot 。
 
-![](/img/your-own-telegram-push-bot/now_plan.png)
+![](http://hesay-me-1251211798.file.myqcloud.com/img/your-own-telegram-push-bot/now_plan.png)
 
 如果要将应用部署到 Now.sh 上，需要安装官方的 cli 工具。
 
