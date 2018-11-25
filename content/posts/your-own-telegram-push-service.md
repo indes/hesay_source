@@ -3,7 +3,7 @@ title: "🤖如何搭建一个属于自己的 Telegram 推送 Bot"
 date: 2018-11-25T11:16:28+08:00
 draft: false
 categories:
-- 折腾
+- Code
 tags:
 - Telegram
 - telepush
@@ -18,8 +18,8 @@ Telegram 实在是太好用了，个人最喜欢的还是全面且开放的 Bot 
 # 为什么
 已经有 Server酱 了，为什么还要重新写一个？
 
-- Server酱 不开源，我不喜欢自己的消息从别人那里再走一遍
-- Telegram 比微信好用
+- Server酱**不开源**，我不喜欢自己的消息从别人那里再走一遍；
+- Telegram 比微信好用。
 
 
 # 搭建方法
