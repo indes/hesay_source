@@ -297,7 +297,7 @@ code {
 
 /* First entry */
 .first-entry {
-  min-height: calc(100vh - 65px - 80px);
+  /*min-height: calc(100vh - 65px - 80px);*/
   margin-bottom: 80px;
   padding-top: 12vh;
   padding-bottom: 12vh;
