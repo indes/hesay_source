@@ -10,3 +10,4 @@ type: page
 
 - [DCC 的小窝](https://dcc.cat "DCC 的小窝")
 - [Trii Hsia](https://yumoe.com/ "Trii Hsia")
+- [Cho Li](https://neverending.me/)
