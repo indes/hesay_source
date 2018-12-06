@@ -37,6 +37,13 @@ type: page
     - 📧 wl🔹live.it(🔹换成@)
     - 即时通讯：[Telegram](https://t.me/cyberiot)
 
+- PGP Public Key: [0x8d864548646f6078](http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x8D864548646F6078)
+- 轨迹：
+    - [GitHub](https://github.com/indes)
+    - [网易云音乐](https://music.163.com/#/user/home?id=6193007)
+    - [豆瓣](https://www.douban.com/people/wanglics/)
+
+
 # 📘 博客
 开始于2012，折腾来折腾去又回到了这里。
 沉寂了许久，再度出发。不同的目的，不同的心境，为遇见另一个自己。
