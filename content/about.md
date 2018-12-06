@@ -6,7 +6,14 @@ comments: true
 type: page
 ---
 
-> 我就是网络，凯斯。
+> “I’m not Wintermute now.”  
+> “So what are you.”  
+> “I’m the matrix, Case.”  
+> “Where’s that get you?”  
+> “Nowhere. Everywhere. I’m the sum total of the works, the whole show.”  
+> “So what’s the score? How are things different? You running the world now? You God?”  
+> “Things aren’t different. Things are things.”
+
 
 
 # 👨🏻‍🚀 我
