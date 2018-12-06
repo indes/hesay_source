@@ -17,6 +17,8 @@ type: page
 
 
 # 👨🏻‍🚀 我
+很高兴认识你。
+
 - 坐标：28°09'56.9"N 112°57'36.9"E
 - 状态：一无所有，一事无成
 
@@ -33,19 +35,20 @@ type: page
     - 🍎苹果
     - 🐛昆虫
 
-- 你可以通过以下方式找到我（如果你真的有事的话）：
-    - 📧 wl🔹live.it(🔹换成@)
-    - 即时通讯：[Telegram](https://t.me/cyberiot)
-
 - PGP Public Key: [0x8d864548646f6078](http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x8D864548646F6078)
+
+- 联系方式（如果你真的有事的话）：
+    - 📧 wl🔹live.it(🔹换成@，最好你能使用我的PGP公钥加密邮件)
+    - [Telegram](https://t.me/cyberiot)
+    - [Instagram](https://www.instagram.com/lyer_42/)
+    - [GitHub](https://github.com/indes)
 
 
 # 📘 博客
-开始于2012，折腾来折腾去又回到了这里。
-沉寂了许久，再度出发。不同的目的，不同的心境，为遇见另一个自己。
-
-**不害怕，不后悔**
+开始于2012，折腾来折腾去又回到了这里。  
+**记录是为了更好的遗忘。**
 
 
+沉寂了许久，再度出发。不同的目的，不同的心境，为遇见另一个自己。  
 最后，纪念一下死去的旧博客，祝自己能够坚持下去。
 ![网粒](https://hesay-me-1251211798.file.myqcloud.com/img/about/Screenshot_2018-09-12.jpg)
