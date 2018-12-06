@@ -139,76 +139,94 @@ code {
   line-height: 35px;
 }
 
-.noscroll {
-  overflow: hidden;
-}
 
 .menu-toggle {
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 20;
-  width: 80px;
-  height: 65px;
-}
-
-.menu-toggle::before,
-.menu-toggle::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 22px;
-  height: 2px;
-  background: #000;
-}
-
-.menu-toggle::before {
-  transform: translate3d(-50%, -5px, 0);
-}
-
-.menu-toggle::after {
-  transform: translate3d(-50%, 5px, 0);
-}
-
-.noscroll .menu-toggle::before {
-  transform: translate3d(-50%, -1px, 0) rotateZ(45deg);
-}
-
-.noscroll .menu-toggle::after {
-  transform: translate3d(-50%, -1px, 0) rotateZ(-45deg);
-}
-
-.menu {
   display: none;
 }
-
-.noscroll .menu {
-  display: block;
-}
-
-.menu ul {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 10;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-}
-
 .menu li {
-  width: 100%;
-  margin-left: 0;
+  display: inline-block;
+  margin-left: 20px;
+}
+.menu li.active a {
+  color: rgba(0, 0, 0, .4);
+}
+.menu a {
+  display: block;
+  font-size: 15px;
 }
 
-.menu a {
-  font-size: 20px;
+@media (max-width: 1023px) {
+  .noscroll {
+    overflow: hidden;
+  }
+
+  .menu-toggle {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 20;
+    width: 80px;
+    height: 65px;
+  }
+
+  .menu-toggle::before,
+  .menu-toggle::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 22px;
+    height: 2px;
+    background: #000;
+  }
+
+  .menu-toggle::before {
+    transform: translate3d(-50%, -5px, 0);
+  }
+
+  .menu-toggle::after {
+    transform: translate3d(-50%, 5px, 0);
+  }
+
+  .noscroll .menu-toggle::before {
+    transform: translate3d(-50%, -1px, 0) rotateZ(45deg);
+  }
+
+  .noscroll .menu-toggle::after {
+    transform: translate3d(-50%, -1px, 0) rotateZ(-45deg);
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .noscroll .menu {
+    display: block;
+  }
+
+  .menu ul {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .menu li {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .menu a {
+    font-size: 20px;
+  }
 }
 
 /* Main
