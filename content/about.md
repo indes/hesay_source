@@ -14,8 +14,7 @@ type: page
 - 状态：一无所有，一事无成
 
 - 喜欢：
-    - 💖Zard
-    - 💖X Japan（才不是杀马特）
+    - 🙅‍♂️X Japan（才不是杀马特）
     - 🌌科幻
     - 💽上世纪八九十年代的日本流行乐
     - 🎻巴洛克时期的音乐
@@ -29,7 +28,7 @@ type: page
 
 - 你可以通过以下方式找到我（如果你真的有事的话）：
     - 📧 wl🔹live.it(🔹换成@)
-    - [Telegram](https://t.me/cyberiot)
+    - 即时通讯：[Telegram](https://t.me/cyberiot)
 
 # 📘 博客
 开始于2012，折腾来折腾去又回到了这里。
