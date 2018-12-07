@@ -123,7 +123,7 @@ now
 # Bot 使用
 
 ```
-GET <Bot 地址>/api/msg?url=xxx 
+GET <Bot 地址>/api/msg?text=xxx 
 ```
 
 其中xxx为你要发送消息的内容，详细使用方法参考[这里](https://github.com/indes/telepush#%E4%BD%BF%E7%94%A8)。
