@@ -123,9 +123,9 @@ now
 # Bot 使用
 
 ```
-GET <Bot 地址>/api/send?msg=xxx 
+GET <Bot 地址>/api/msg?url=xxx 
 ```
 
-其中xxx为你要发送消息的内容。
+其中xxx为你要发送消息的内容，详细使用方法参考[这里](https://github.com/indes/telepush#%E4%BD%BF%E7%94%A8)。
 
 telepush 目前还只具有最基本的文本推送功能，其他功能还待进一步开发。
