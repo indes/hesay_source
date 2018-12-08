@@ -2,7 +2,7 @@
 title: "📌关于"
 date: 2018-04-24T14:34:47+08:00
 draft: false
-comments: true
+comments: false
 type: page
 ---
 
