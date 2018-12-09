@@ -42,7 +42,7 @@ type: page
     - [Telegram](https://t.me/cyberiot)
     - [Instagram](https://www.instagram.com/lyer_42/)
     - [GitHub](https://github.com/indes)
-
+    - [网易云音乐](https://music.163.com/#/user/home?id=6193007)
 
 # 📘 博客
 开始于2012，折腾来折腾去又回到了这里。  
