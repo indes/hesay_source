@@ -21,7 +21,7 @@ tags:
 这一步参考[项目README](https://github.com/fooleap/disqus-php-api#disqus-%E8%AE%BE%E7%BD%AE)
 
 其中 Callback URL 先随便填一个 URL，后面需要修改。
-![](/img/deploy-disqus-proxy-by-now/3436.png)
+![](//hesay-me-1251211798.file.myqcloud.com/img/deploy-disqus-proxy-by-now/3436.png)
 
 ## 部署
 - 安装 Now CLI
@@ -52,7 +52,7 @@ now login
 ```
 now
 ```
-![](/img/deploy-disqus-proxy-by-now/35.png)
+![](//hesay-me-1251211798.file.myqcloud.com/img/deploy-disqus-proxy-by-now/35.png)
 
 部署过程中会询问你是采用哪种方式部署，键盘输入 Docker 前那个数字。
 
