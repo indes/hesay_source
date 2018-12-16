@@ -10,11 +10,11 @@ tags:
 - Docker
 ---
 
-一直使用 Disqus 作为评论系统，众所周知的原因，Disqus 无法在国内正常访问。博主有一台位于海外的 VPS 使用搭建代理，但是有些没有海外服务器的朋友碰到这种情况就无能为力了。  
+一直使用 Disqus 作为评论系统，由于众所周知的原因，Disqus 无法在国内正常访问。博主有一台位于海外的 VPS 使用搭建代理，但是有些没有海外服务器的朋友碰到这种情况就无能为力了。  
 其实通过 Now.sh 平台提供的 Docker 部署服务，不需要自己有海外服务器也能部署自己的 Disqus 代理服务。
 
 <!--more-->
-使用的代理方案是 [@fooleap](https://blog.fooleap.org) 写的 [disqus-php-api](https://github.com/fooleap/disqus-php-api)。
+文中使用的代理方案是 [fooleap/disqus-php-api](https://github.com/fooleap/disqus-php-api)。
 
 ## Disqus 设置
 

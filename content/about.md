@@ -25,6 +25,7 @@ type: page
 - 喜欢：
     - 🙅‍♂️X Japan（才不是杀马特）
     - 🌌科幻
+        - 👨‍💻赛博朋克 (Especially)
     - 💽上世纪八九十年代的日本流行乐
     - 🎻巴洛克时期的音乐
     - 🎮《Civilization V》（下回合就睡觉）
