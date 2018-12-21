@@ -22,14 +22,14 @@ DisqusShortname = "hesay-me"
 
   [[menu.main]]
     identifier = "friends"
-    name = "🔗Friends"
+    name = "🔗友情链接"
     pre = "<i class='fa fa-heart'></i>"
     url = "/friends/"
     weight = 3
 
   [[menu.main]]
     identifier = "about"
-    name = "👨🏻‍🚀About"
+    name = "👨🏻‍🚀关于"
     pre = "<i class='fa fa-heart'></i>"
     url = "/about/"
     weight = 4
