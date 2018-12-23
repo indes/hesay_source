@@ -18,7 +18,7 @@ DisqusShortname = "hesay-me"
     name = "💾百宝箱"
     pre = "<i class='fa fa-heart'></i>"
     url = "https://disk.hesay.me/"
-    weight = 5
+    weight = 4
 
   [[menu.main]]
     identifier = "friends"
@@ -32,7 +32,7 @@ DisqusShortname = "hesay-me"
     name = "👨🏻‍🚀关于"
     pre = "<i class='fa fa-heart'></i>"
     url = "/about/"
-    weight = 4
+    weight = 5
 
   #[[menu.main]]
     #name = "getting started"
