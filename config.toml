@@ -15,14 +15,14 @@ DisqusShortname = "hesay-me"
 
   [[menu.main]]
     identifier = "disk"
-    name = "💾Disk"
+    name = "💾百宝箱"
     pre = "<i class='fa fa-heart'></i>"
     url = "https://disk.hesay.me/"
     weight = 5
 
   [[menu.main]]
     identifier = "friends"
-    name = "🔗友情链接"
+    name = "🔗朋友"
     pre = "<i class='fa fa-heart'></i>"
     url = "/friends/"
     weight = 3
